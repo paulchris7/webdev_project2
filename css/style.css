@@ -86,3 +86,19 @@ body {
   background-color: #faf9f8;
 	border: 2px dashed #e8e3de;
 }
+
+#professional-links {
+	display:flex;
+	justify-content:center;
+	gap:20px;
+}
+
+#professional-links a img {
+	width: 40px;           
+  height: 40px; 	
+  transition: transform 0.3s ease-in-out;
+}
+
+#professional-links a img:hover {
+	fill:#e8e3de;
+}
