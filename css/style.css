@@ -25,7 +25,7 @@ body {
 #home-page {
 	overflow: hidden;
 }
-#picture-section {
+#picture-container {
 	width: 50%;
 	float: left;
 }
