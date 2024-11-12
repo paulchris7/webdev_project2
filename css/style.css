@@ -1,3 +1,50 @@
 body {
 	background-color: #faf9f8;
 }
+
+#nav-bar {
+  display: flex;               
+  justify-content: center;     
+  align-items: center;         
+  height: 173px;                
+}
+
+#nav-bar ul {
+  display: flex;               
+  list-style-type: none;                         
+  margin: auto;                  
+}
+
+#nav-bar ul li {
+  margin: 0 20px;         
+}
+
+#nav-bar ul li a {
+  text-decoration: none;         
+}
+#home-page {
+	overflow: hidden;
+}
+#picture-section {
+	width: 50%;
+	float: left;
+}
+
+#presentation-section {
+	width: 50%;
+	float: left;
+}
+
+.clear {
+	clear: both;
+}
+
+#picture-container {
+	height: 489px;
+	width: 438;
+}
+
+#my-picture img {
+  width: 100%;   
+  height: auto;
+}
