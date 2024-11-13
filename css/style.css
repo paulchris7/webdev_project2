@@ -24,7 +24,7 @@ body {
   text-decoration: none;         
 }
 #home-page {
-	width: 90%;           
+	width: 80%;           
   height: 100vh;    
   margin: 0 auto; 
 }
@@ -43,7 +43,8 @@ body {
 	float: left;
 	display:flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: center;
+	gap:30px;
 }
 
 .clear {
@@ -54,10 +55,29 @@ body {
 	height: 90%;
 	width: auto;
 }
+#name-container {
+	height:10%;
+	display:flex;
+	justify-content:center;
+}
+
+#presentation-container {
+	height:40%;
+	display:flex;
+	justify-content:center;
+	align-items: center;
+}
 
 #buttons-container {
 	display:flex;
-	height:40px;
+	height:10%;
+	justify-content:center;
+	align-items: center;
+	gap:10%;
+}
+#proflinks-container {
+	height:10%;
+	display:flex;
 	justify-content:center;
 	gap:20px;
 }
@@ -87,18 +107,32 @@ body {
 	border: 2px dashed #e8e3de;
 }
 
-#professional-links {
-	display:flex;
-	justify-content:center;
-	gap:20px;
-}
-
-#professional-links a img {
+.logo-link img {
 	width: 40px;           
   height: 40px; 	
   transition: transform 0.3s ease-in-out;
 }
 
-#professional-links a img:hover {
+.logo-link img:hover {
 	fill:#e8e3de;
+}
+
+#resume-wrapper {
+	width:80%;
+	margin: auto;
+}
+
+#eduwork-container {
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+	justify-content: center;
+}
+#education-container {
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	border: 2px solid #e8e3de;
 }
