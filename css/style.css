@@ -26,7 +26,7 @@ body {
 #home-page {
 	width: 80%;           
   height: 100vh;    
-  margin: 0 auto; 
+  margin: 0 auto 40px; 
 }
 #picture-section {
 	width: 50%;
@@ -107,32 +107,36 @@ body {
 	border: 2px dashed #e8e3de;
 }
 
-.logo-link img {
+.icon {
 	width: 40px;           
   height: 40px; 	
   transition: transform 0.3s ease-in-out;
 }
 
-.logo-link img:hover {
+.icon:hover {
 	fill:#e8e3de;
 }
 
 #resume-wrapper {
 	width:80%;
 	margin: auto;
+	display:flex;
+	flex-direction: column;
+	gap:40px;
 }
 
-#eduwork-container {
+.section-container {
 	display: flex;
 	flex-direction: row;
 	gap: 20px;
 	justify-content: center;
 }
-#education-container {
+.subsection-container {
 	width: 50%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
 	border: 2px solid #e8e3de;
+	border-radius: 2rem;
 }
