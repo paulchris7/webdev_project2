@@ -6,14 +6,13 @@ body {
   display: flex;               
   justify-content: center;     
   align-items: center;         
-  height: 173px;                
+  height: 20vh;                
 }
 
 #nav-bar ul {
   display: flex;               
   list-style-type: none;                         
   gap: 20px;  
-	
 }
 
 #nav-bar ul li {
@@ -25,7 +24,7 @@ body {
 }
 #home-page {
 	width: 80%;           
-  height: 100vh;    
+  height: 80vh;    
   margin: 0 auto 40px; 
 }
 #picture-section {
@@ -139,4 +138,68 @@ body {
 	flex-direction: column;
 	border: 2px solid #e8e3de;
 	border-radius: 2rem;
+}
+.subsection-container ul {
+	list-style: none;
+}
+
+.subsection-container ul li {
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+}
+
+.language-level {
+	display: flex;
+	justify-content: space-between;
+}
+#languages {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+#languages h1 {
+	margin: auto;
+}
+.skill-bar {
+	width: 80%;
+	height: 50px;
+	background-color: #e8e3de;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	border-radius: 2px;
+}
+
+#english-level {
+	width: 60%;
+	height: 40px;
+	background-color: #faf9f8;
+	margin: 10px;
+}
+
+#french-level {
+	width: 90%;
+	height: 40px;
+	background-color: #faf9f8;
+	margin: 10px;
+}
+
+footer p {
+	text-align: center;
+}
+
+/*Portfolio*/
+
+.portfolio-wrapper {
+	width: 80%;           
+  height: 80vh;
+	margin: auto;
+}
+
+.section2-container {
+	display: flex;
+	flex-direction: row;
+	gap: 10%;
+	justify-content: center;
 }
