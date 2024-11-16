@@ -19,9 +19,15 @@ body {
   margin: 0 20px;         
 }
 
-#nav-bar ul li a {
-  text-decoration: none;         
+a {
+  text-decoration: none;
+	color: #000000;
 }
+#nav-bar ul li a.active {
+  text-decoration: underline;
+	color: #000000;
+}
+
 #home-page {
 	width: 80%;           
   height: 80vh;    
@@ -152,6 +158,7 @@ body {
 .language-level {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 }
 #languages {
 	display: flex;
@@ -162,8 +169,8 @@ body {
 	margin: auto;
 }
 .skill-bar {
-	width: 80%;
-	height: 50px;
+	width: 90%;
+	height: 30px;
 	background-color: #e8e3de;
 	display: flex;
 	justify-content: flex-start;
@@ -172,17 +179,19 @@ body {
 }
 
 #english-level {
-	width: 60%;
-	height: 40px;
+	width: 80%;
+	height: 20px;
 	background-color: #faf9f8;
 	margin: 10px;
+	border-radius: 2px;
 }
 
 #french-level {
-	width: 90%;
-	height: 40px;
+	width: 95%;
+	height: 20px;
 	background-color: #faf9f8;
 	margin: 10px;
+	border-radius: 2px;
 }
 
 footer p {
@@ -193,7 +202,7 @@ footer p {
 
 .portfolio-wrapper {
 	width: 80%;           
-  height: 80vh;
+  height: 70vh;
 	margin: auto;
 }
 
@@ -202,4 +211,89 @@ footer p {
 	flex-direction: row;
 	gap: 10%;
 	justify-content: center;
+}
+
+.subsection2-container {
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 40px;
+}
+
+.picture-container {
+	height: 200px;
+	width: 200px;
+}
+
+.picture-container img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+/*blog*/
+#blog-body {
+	background-color: #e8e3de;
+}
+
+#blog-wrapper {
+	width: 80%;
+	margin: auto;
+}
+
+#posts-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: auto;
+}
+
+.post-wrapper {
+	width: 45%;
+	background-color: #faf9f8;
+	margin:20px auto;
+}
+
+.content-wrapper {
+	margin: 10px;
+}
+
+/*contact*/
+#contact-wrapper {
+	width: 80%;
+	height:70vh;
+	margin: auto;
+	display:flex;
+	justify-content: center;
+}
+
+.subsection3-container {
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 10px;
+}
+
+#form-wrapper form {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+#form-wrapper input {
+	border: none;
+	outline: none;
+	height: 30px;
+	background-color:#e8e3de;
+}
+
+#form-wrapper textarea {
+	border: none;
+	outline: none;
+	height: 100px;
+	background-color:#e8e3de;
 }
